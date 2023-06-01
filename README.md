@@ -1,5 +1,5 @@
 # recommender-system
-Description of developed code:
+## Description of developed code:
 
 The program is written in python. Firstly, it is necessary to import required libraries. After that various functions are defined that perform required analyses. Lastly, the __name__ == '__main__'  method is utilized, as it allows the functions to be run directly.
 
@@ -14,6 +14,7 @@ load_documents(file_path): This function takes the file path as input and reads 
 6. display_similarity_matrix: displays the cosine similarity matrix as a DataFrame resembling a confusion matrix. The function creates a DataFrame using the similarity matrix, where the columns and index labels are labeled as "Document 1", "Document 2", etc. The values in the DataFrame correspond to the cosine similarity between each pair of documents.
 
 
-Example of use
+## Example of use:
+
 When you run the program a prompt will ask you to add a name of the txt file you want to analyze. When left blank, it will execute with the documents from the assignment.
 
