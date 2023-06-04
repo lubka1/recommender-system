@@ -15,5 +15,5 @@ List of functions:
 
 ## Example of use:
 
-When you run the program a prompt will ask you to add a name of the txt file you want to analyze. When left blank, it will execute with the documents from the assignment.
+When you run the program a prompt will ask you to add a name of the txt file you want to analyze. Don't forget the path to the document. When left blank, it will execute with the documents from the assignment.
 
