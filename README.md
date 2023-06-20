@@ -13,6 +13,14 @@ IDF (Inverse Document Frequency) measures the significance of a term in a docume
 
 Cosine similarity is a similarity measure that determines the cosine of the angle between two vectors, which in this case, represent documents or queries.
 
+## Example of use:
+
+When you run the program a prompt will ask you to add a name of the txt file you want to analyze. Don't forget the path to the document. When left blank, it will execute with the documents from the assignment.
+Next it will ask you about to input a search term, a query to analyze and search for in the set of documents. If left blank, program will still calculate TF_IDF of the empty string.
+It is possible to change parameter k to return desired amount of documents.
+
+The program first outputs the to ranked document/s, following a table for each documents, specifying the TF, IDF and TFIDF values of each term in the document. Finally it prints a table of cosine similarity values in the style of a matrix.
+
 ## Description of developed code:
 
 The program is written in python. Firstly, it is necessary to import required libraries. After that various functions are defined that perform required analyses. Lastly, the __name__ == '__main__'  method is utilized, as it allows the functions to be run directly.
@@ -35,9 +43,4 @@ The ranked documents are returned as a list.
 Finally, in the main block, you can specify a query and the number of documents (k) to retrieve. The rank_documents function is called with these parameters, and the ranked documents are printed.
 
 
-## Example of use:
-
-When you run the program a prompt will ask you to add a name of the txt file you want to analyze. Don't forget the path to the document. When left blank, it will execute with the documents from the assignment.
-Next it will ask you about to input a search term, a query to analyze and search for in the set of documents. If left blank, program will still calculate TF_IDF of the empty string.
-It is possible to change parameter k to return desired amount of documents.
 
