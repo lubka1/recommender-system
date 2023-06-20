@@ -1,4 +1,17 @@
 # recommender-system
+## Description of the assignment:
+
+In this scenario, the client has a question or search query, and they have a set of documents available. By utilizing KNN, the algorithm can calculate the similarity between the query and the documents based on their vector representations (e.g., TF-IDF), and identify the k nearest neighbors (documents) that are most similar to the query.
+The k-nearest neighbors (KNN) algorithm can be used for ranking based on TF-IDF (Term Frequency-Inverse Document Frequency) and other similarity metrics. TF-IDF is a commonly used method to represent the importance of a term in a document relative to a collection of documents.
+
+TF-IDF (Term Frequency-Inverse Document Frequency)assigns a weight to each term in a document, taking into account both the local importance of the term within the document (TF) and the global importance of the term across the document collection (IDF).
+
+TF (Term Frequency) measures the frequency of a term within a document. It indicates how often a specific term appears in a document, providing insight into the importance of the term within that document.
+
+IDF (Inverse Document Frequency) measures the significance of a term in a document collection. It quantifies the rarity of a term by calculating the logarithm of the ratio between the total number of documents and the number of documents containing the term.
+
+Cosine similarity is a similarity measure that determines the cosine of the angle between two vectors, which in this case, represent documents or queries.
+
 ## Description of developed code:
 
 The program is written in python. Firstly, it is necessary to import required libraries. After that various functions are defined that perform required analyses. Lastly, the __name__ == '__main__'  method is utilized, as it allows the functions to be run directly.
