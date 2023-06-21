@@ -44,6 +44,16 @@ Finally, in the main block, you can specify a query and the number of documents 
 
 ### notes
 TF-IDF: Typically uses cosine similarity as the metric to measure document similarity based on TF-IDF vectors.
+
 TF: Typically uses Euclidean distance as the metric to measure document dissimilarity or distance based on term frequency vectors.
 
+Some commonly used metrics for calculating document neighbors include:
+
+Cosine Similarity: This metric measures the cosine of the angle between two vectors in the feature space. It is commonly used with TF-IDF vectors to calculate document similarity. Cosine similarity provides a value between -1 and 1, where 1 indicates perfect similarity and -1 indicates perfect dissimilarity.
+
+Euclidean Distance: This metric measures the straight-line distance between two vectors in the feature space. It is often used with TF vectors to calculate document dissimilarity. Euclidean distance provides a non-negative value, where smaller values indicate greater similarity.
+
+Manhattan Distance: Also known as the L1 distance or city block distance, this metric calculates the sum of the absolute differences between the coordinates of two vectors. It can be used with different vector representations and is especially useful when dealing with sparse or high-dimensional data.
+
+Jaccard Similarity: This metric is commonly used with binary vectors, such as binary term occurrence vectors. It calculates the size of the intersection divided by the size of the union of the vectors' non-zero elements. Jaccard similarity is useful for measuring set similarity.
 
