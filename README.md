@@ -15,7 +15,10 @@ Cosine similarity is a similarity measure that determines the cosine of the angl
 
 ## Example of use:
 
-When you run the program a prompt will ask you to add a name of the txt file you want to analyze. Don't forget the path to the document. When left blank, it will execute with the documents from the assignment.
+main.pynb contains the developed code
+main_experiments only containes code for further analyses
+
+When you run the main program a prompt will ask you to add a name of the txt file you want to analyze. Don't forget the path to the document. When left blank, it will execute with the documents from the assignment.
 Next it will ask you about to input a search term, a query to analyze and search for in the set of documents. If left blank, program will still calculate TF_IDF of the empty string.
 It is possible to change parameter k to return desired amount of documents.
 
