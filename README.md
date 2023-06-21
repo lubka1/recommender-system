@@ -42,5 +42,6 @@ The ranked documents are returned as a list.
 
 Finally, in the main block, you can specify a query and the number of documents (k) to retrieve. The rank_documents function is called with these parameters, and the ranked documents are printed.
 
+#notes
 
 
